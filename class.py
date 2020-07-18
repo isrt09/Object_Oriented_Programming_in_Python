@@ -8,3 +8,4 @@ class Student:
 
 aStudent = Student('Mazedur Rahman','Applied Statistics')
 aStudent.getInfo()
+Student.getInfo(aStudent) # It's optional
