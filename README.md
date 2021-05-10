@@ -1,4 +1,4 @@
-# Object-Oriented-Programming-in-Python
+# Object Oriented Programming in Python
 
 ## Major Topics:
  1) Class & Object
