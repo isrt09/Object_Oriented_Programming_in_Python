@@ -1,6 +1,6 @@
 # Object-Oriented-Programming-in-Python
 
-# The Core Topics are to be covered as given below :- 
+## Major Topics:
  1) Class & Object
  2) Constructor
  3) Inheritence
