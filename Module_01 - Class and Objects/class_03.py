@@ -10,6 +10,7 @@ c3 = Customer('Ronaldo','REAL')
 players = [c1,c2,c3]
 
 for player in players:
+    print("Player List Names:")
     print("Team Player Name : {}".format(player.name))
 
 print("".center(50,"="))
