@@ -1,4 +1,3 @@
-
 # Polymorphyism with Inheritence ....
 class Teacher:
     def lesson(self):
@@ -15,10 +14,10 @@ aStudent.lesson()
 aStudent.study()
 
 # Polymorphyism with Functions & Methods ....
-
 class Teacher:
     def study(self):
         print('Prepare for the lesson')
+        
 class Student:
     def study(self):
         print('Prepare for the exam')
@@ -31,7 +30,6 @@ for obj in (aTeacher,aStudent):
 
 
 # Polymorphic Functions
-
 len("Hello World")
 len([1,2,3,4,5])
 len((1,2,3,4,5 ))

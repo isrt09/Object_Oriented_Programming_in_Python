@@ -3,6 +3,7 @@ class Book:
     def __init__(self,name, author):
         self.name   = name
         self.author = author
+        
     def getInfo(self):
         print('Book Name :',self.name)
         print('Author Name :',self.author)
