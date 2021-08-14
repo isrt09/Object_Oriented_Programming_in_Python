@@ -14,3 +14,6 @@ class Math:
 print(Math.add(100))
 print(Math.division(100))
 print(Math.inifity())
+
+
+
