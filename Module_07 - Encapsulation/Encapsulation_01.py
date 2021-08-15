@@ -1,4 +1,5 @@
-# Encapsulation Workflow in Python:
+# Encapsulation Workflow in Python with Public Mode:
+
 class Rectangle:
     def __init__(self, weight, height):
         self.height = height
@@ -36,3 +37,50 @@ print("Weight of Rectangle is",r2.get_weight())
 print("Height of Rectangle is",r2.get_height())
 print("Area of Rectangle is",r2.get_area())
 print("Area of Rectangle is {} square feet".format(r2.height * r2.weight))
+
+
+# Encapsulation Workflow in Python with Private Mode:
+
+class Rectangle:
+    def __init__(self, weight, height):
+        self.__height = height
+        self.__weight = weight
+
+    def set_height(self,value):
+        self.__height = value
+
+    def get_height(self):
+        return self.__height
+
+    def set_weight(self, value):
+        self.__weight = value
+
+    def get_weight(self):
+        return self.__weight
+
+    def get_area(self):
+        return self.__height * self.__weight
+
+r1 = Rectangle(300,400)
+print("Height of Rectangle is",r1.get_height())
+print("Weight of Rectangle is",r1.get_weight())
+print("Area of Rectangle is",r1.get_area())
+print("Area of Rectangle is {} sqft".format(r1.get_area()))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
