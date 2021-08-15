@@ -1,4 +1,3 @@
-
 # Simple Encapsulation Mechanism in Python
 class Father:
     def __init__(self,account):
