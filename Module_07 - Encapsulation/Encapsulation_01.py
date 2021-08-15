@@ -61,7 +61,15 @@ class Rectangle:
     def get_area(self):
         return self.__height * self.__weight
 
+    def __private_method(self):
+        return "Don't allow for private categories"
+
+    def public_method(self):                
+        print(self.__height)
+        print(self.__private_method())
+
 r1 = Rectangle(300,400)
+r1.public_method()
 print("Height of Rectangle is",r1.get_height())
 print("Weight of Rectangle is",r1.get_weight())
 print("Area of Rectangle is",r1.get_area())
