@@ -13,7 +13,8 @@
  10) Class Method
  11) Magic Method
  12) Dunder Method
- 13) Class variable & Instance variable
- 14) Encapsulation
- 15) Polymorphyism
- 16) Abstraction
+ 13) Getter & Setter Method
+ 14) Class variable & Instance variable
+ 15) Encapsulation
+ 16) Polymorphyism
+ 17) Abstraction
